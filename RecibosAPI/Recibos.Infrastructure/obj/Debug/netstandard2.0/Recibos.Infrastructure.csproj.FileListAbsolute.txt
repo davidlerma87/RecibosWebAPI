@@ -1,0 +1,12 @@
+D:\RecibosProject\RecibosWebAPI\RecibosAPI\Recibos.Infrastructure\bin\Debug\netstandard2.0\Recibos.Infrastructure.deps.json
+D:\RecibosProject\RecibosWebAPI\RecibosAPI\Recibos.Infrastructure\bin\Debug\netstandard2.0\Recibos.Infrastructure.dll
+D:\RecibosProject\RecibosWebAPI\RecibosAPI\Recibos.Infrastructure\bin\Debug\netstandard2.0\Recibos.Infrastructure.pdb
+D:\RecibosProject\RecibosWebAPI\RecibosAPI\Recibos.Infrastructure\bin\Debug\netstandard2.0\Recibos.Core.dll
+D:\RecibosProject\RecibosWebAPI\RecibosAPI\Recibos.Infrastructure\bin\Debug\netstandard2.0\Recibos.Core.pdb
+D:\RecibosProject\RecibosWebAPI\RecibosAPI\Recibos.Infrastructure\obj\Debug\netstandard2.0\Recibos.Infrastructure.csprojAssemblyReference.cache
+D:\RecibosProject\RecibosWebAPI\RecibosAPI\Recibos.Infrastructure\obj\Debug\netstandard2.0\Recibos.Infrastructure.AssemblyInfoInputs.cache
+D:\RecibosProject\RecibosWebAPI\RecibosAPI\Recibos.Infrastructure\obj\Debug\netstandard2.0\Recibos.Infrastructure.AssemblyInfo.cs
+D:\RecibosProject\RecibosWebAPI\RecibosAPI\Recibos.Infrastructure\obj\Debug\netstandard2.0\Recibos.Infrastructure.csproj.CoreCompileInputs.cache
+D:\RecibosProject\RecibosWebAPI\RecibosAPI\Recibos.Infrastructure\obj\Debug\netstandard2.0\Recibos.Infrastructure.csproj.CopyComplete
+D:\RecibosProject\RecibosWebAPI\RecibosAPI\Recibos.Infrastructure\obj\Debug\netstandard2.0\Recibos.Infrastructure.dll
+D:\RecibosProject\RecibosWebAPI\RecibosAPI\Recibos.Infrastructure\obj\Debug\netstandard2.0\Recibos.Infrastructure.pdb

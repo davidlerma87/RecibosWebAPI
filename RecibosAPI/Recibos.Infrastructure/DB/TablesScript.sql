@@ -1,0 +1,30 @@
+﻿USE RecibosDB
+GO
+
+CREATE TABLE [dbo].[Proveedores]
+(
+	[Id] INT NOT NULL IDENTITY(1,1) PRIMARY KEY,
+	Nombre VARCHAR(100) NOT NULL
+)
+
+CREATE TABLE [dbo].[Monedas]
+(
+	[Id] INT NOT NULL IDENTITY(1,1) PRIMARY KEY,
+	Acronimo VARCHAR(3) NOT NULL
+)
+
+CREATE TABLE [dbo].[Recibos]
+(
+	[Id] INT NOT NULL IDENTITY(1,1) PRIMARY KEY,	
+    Monto DECIMAL(19,4) NOT NULL,    
+	Fecha DATETIME NOT NULL,
+	Comentario  VARCHAR(200),
+	ProveedorId_FK INT NOT NULL,
+	FOREIGN KEY (ProveedorId_FK) REFERENCES Proveedores(Id),
+	MonedaId_FK INT NOT NULL,
+	FOREIGN KEY (MonedaId_FK) REFERENCES Monedas(Id)
+)
+
+ALTER TABLE Recibos
+ADD UsuarioId_FK int
+FOREIGN KEY (UsuarioId_FK) REFERENCES Usuarios(Id);

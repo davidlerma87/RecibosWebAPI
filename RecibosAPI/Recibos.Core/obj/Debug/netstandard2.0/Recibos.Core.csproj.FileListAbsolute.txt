@@ -1,0 +1,9 @@
+D:\RecibosProject\RecibosWebAPI\RecibosAPI\Recibos.Core\bin\Debug\netstandard2.0\Recibos.Core.deps.json
+D:\RecibosProject\RecibosWebAPI\RecibosAPI\Recibos.Core\bin\Debug\netstandard2.0\Recibos.Core.dll
+D:\RecibosProject\RecibosWebAPI\RecibosAPI\Recibos.Core\bin\Debug\netstandard2.0\Recibos.Core.pdb
+D:\RecibosProject\RecibosWebAPI\RecibosAPI\Recibos.Core\obj\Debug\netstandard2.0\Recibos.Core.AssemblyInfoInputs.cache
+D:\RecibosProject\RecibosWebAPI\RecibosAPI\Recibos.Core\obj\Debug\netstandard2.0\Recibos.Core.AssemblyInfo.cs
+D:\RecibosProject\RecibosWebAPI\RecibosAPI\Recibos.Core\obj\Debug\netstandard2.0\Recibos.Core.csproj.CoreCompileInputs.cache
+D:\RecibosProject\RecibosWebAPI\RecibosAPI\Recibos.Core\obj\Debug\netstandard2.0\Recibos.Core.dll
+D:\RecibosProject\RecibosWebAPI\RecibosAPI\Recibos.Core\obj\Debug\netstandard2.0\Recibos.Core.pdb
+D:\RecibosProject\RecibosWebAPI\RecibosAPI\Recibos.Core\obj\Debug\netstandard2.0\Recibos.Core.csprojAssemblyReference.cache
