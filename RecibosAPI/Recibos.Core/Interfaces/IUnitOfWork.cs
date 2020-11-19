@@ -10,6 +10,7 @@ namespace Recibos.Core.Interfaces
         IRepository<User> UserRepository { get; }
         IRepository<Currency> CurrencyRepository { get; }
         IRepository<Supplier> SupplierRepository { get; }
+        ISecurityRepository SecurityRepository { get; }
         void SaveChanges();
         Task SaveChangesAsync();
     }

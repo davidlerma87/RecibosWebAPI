@@ -10,3 +10,15 @@ D:\RecibosProject\RecibosWebAPI\RecibosAPI\Recibos.Infrastructure\obj\Debug\nets
 D:\RecibosProject\RecibosWebAPI\RecibosAPI\Recibos.Infrastructure\obj\Debug\netstandard2.0\Recibos.Infrastructure.csproj.CopyComplete
 D:\RecibosProject\RecibosWebAPI\RecibosAPI\Recibos.Infrastructure\obj\Debug\netstandard2.0\Recibos.Infrastructure.dll
 D:\RecibosProject\RecibosWebAPI\RecibosAPI\Recibos.Infrastructure\obj\Debug\netstandard2.0\Recibos.Infrastructure.pdb
+C:\Users\David\Documents\GitHub\RecibosWebAPI\RecibosAPI\Recibos.Infrastructure\obj\Debug\netstandard2.0\Recibos.Infrastructure.csprojAssemblyReference.cache
+C:\Users\David\Documents\GitHub\RecibosWebAPI\RecibosAPI\Recibos.Infrastructure\obj\Debug\netstandard2.0\Recibos.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\David\Documents\GitHub\RecibosWebAPI\RecibosAPI\Recibos.Infrastructure\obj\Debug\netstandard2.0\Recibos.Infrastructure.AssemblyInfo.cs
+C:\Users\David\Documents\GitHub\RecibosWebAPI\RecibosAPI\Recibos.Infrastructure\obj\Debug\netstandard2.0\Recibos.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\David\Documents\GitHub\RecibosWebAPI\RecibosAPI\Recibos.Infrastructure\obj\Debug\netstandard2.0\Recibos.Infrastructure.dll
+C:\Users\David\Documents\GitHub\RecibosWebAPI\RecibosAPI\Recibos.Infrastructure\obj\Debug\netstandard2.0\Recibos.Infrastructure.pdb
+C:\Users\David\Documents\GitHub\RecibosWebAPI\RecibosAPI\Recibos.Infrastructure\bin\Debug\netstandard2.0\Recibos.Infrastructure.deps.json
+C:\Users\David\Documents\GitHub\RecibosWebAPI\RecibosAPI\Recibos.Infrastructure\bin\Debug\netstandard2.0\Recibos.Infrastructure.dll
+C:\Users\David\Documents\GitHub\RecibosWebAPI\RecibosAPI\Recibos.Infrastructure\bin\Debug\netstandard2.0\Recibos.Infrastructure.pdb
+C:\Users\David\Documents\GitHub\RecibosWebAPI\RecibosAPI\Recibos.Infrastructure\bin\Debug\netstandard2.0\Recibos.Core.dll
+C:\Users\David\Documents\GitHub\RecibosWebAPI\RecibosAPI\Recibos.Infrastructure\bin\Debug\netstandard2.0\Recibos.Core.pdb
+C:\Users\David\Documents\GitHub\RecibosWebAPI\RecibosAPI\Recibos.Infrastructure\obj\Debug\netstandard2.0\Recibos.Infrastructure.csproj.CopyComplete

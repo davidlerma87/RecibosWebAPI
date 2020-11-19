@@ -13,6 +13,7 @@ namespace Recibos.Infrastructure.Repositories
         private readonly IRepository<Currency> _currencyRepository;
         private readonly IRepository<Supplier> _supplierRepository;
         private readonly IRepository<User> _userRepository;
+        private readonly ISecurityRepository _securityRepository;
 
         public UnitOfWork(ReceiptsDBContext context) 
         {
@@ -25,6 +26,7 @@ namespace Recibos.Infrastructure.Repositories
         public IRepository<Currency> CurrencyRepository => _currencyRepository ?? new BaseRepository<Currency>(_context);
 
         public IRepository<Supplier> SupplierRepository => _supplierRepository ?? new BaseRepository<Supplier>(_context);
+        public ISecurityRepository SecurityRepository => _securityRepository ?? new SecurityRepository(_context);
 
         public void Dispose()
         {

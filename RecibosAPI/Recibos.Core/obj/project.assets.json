@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\RecibosProject\\RecibosWebAPI\\RecibosAPI\\Recibos.Core\\Recibos.Core.csproj",
+      "projectUniqueName": "C:\\Users\\David\\Documents\\GitHub\\RecibosWebAPI\\RecibosAPI\\Recibos.Core\\Recibos.Core.csproj",
       "projectName": "Recibos.Core",
-      "projectPath": "D:\\RecibosProject\\RecibosWebAPI\\RecibosAPI\\Recibos.Core\\Recibos.Core.csproj",
+      "projectPath": "C:\\Users\\David\\Documents\\GitHub\\RecibosWebAPI\\RecibosAPI\\Recibos.Core\\Recibos.Core.csproj",
       "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
-      "outputPath": "D:\\RecibosProject\\RecibosWebAPI\\RecibosAPI\\Recibos.Core\\obj\\",
+      "outputPath": "C:\\Users\\David\\Documents\\GitHub\\RecibosWebAPI\\RecibosAPI\\Recibos.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config",

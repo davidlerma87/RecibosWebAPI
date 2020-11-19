@@ -2,12 +2,12 @@
 using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
-using Recibos.Api.Controllers.Response;
+using Recibos.Api.Response;
 using Recibos.Core.DTOs;
 using Recibos.Core.Entities;
 using Recibos.Core.Interfaces;
 
-namespace Recibos.Api.Controllers.Controllers
+namespace Recibos.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

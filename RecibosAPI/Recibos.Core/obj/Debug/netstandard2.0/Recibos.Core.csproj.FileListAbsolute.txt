@@ -7,3 +7,12 @@ D:\RecibosProject\RecibosWebAPI\RecibosAPI\Recibos.Core\obj\Debug\netstandard2.0
 D:\RecibosProject\RecibosWebAPI\RecibosAPI\Recibos.Core\obj\Debug\netstandard2.0\Recibos.Core.dll
 D:\RecibosProject\RecibosWebAPI\RecibosAPI\Recibos.Core\obj\Debug\netstandard2.0\Recibos.Core.pdb
 D:\RecibosProject\RecibosWebAPI\RecibosAPI\Recibos.Core\obj\Debug\netstandard2.0\Recibos.Core.csprojAssemblyReference.cache
+C:\Users\David\Documents\GitHub\RecibosWebAPI\RecibosAPI\Recibos.Core\obj\Debug\netstandard2.0\Recibos.Core.AssemblyInfoInputs.cache
+C:\Users\David\Documents\GitHub\RecibosWebAPI\RecibosAPI\Recibos.Core\obj\Debug\netstandard2.0\Recibos.Core.AssemblyInfo.cs
+C:\Users\David\Documents\GitHub\RecibosWebAPI\RecibosAPI\Recibos.Core\obj\Debug\netstandard2.0\Recibos.Core.csproj.CoreCompileInputs.cache
+C:\Users\David\Documents\GitHub\RecibosWebAPI\RecibosAPI\Recibos.Core\obj\Debug\netstandard2.0\Recibos.Core.dll
+C:\Users\David\Documents\GitHub\RecibosWebAPI\RecibosAPI\Recibos.Core\obj\Debug\netstandard2.0\Recibos.Core.pdb
+C:\Users\David\Documents\GitHub\RecibosWebAPI\RecibosAPI\Recibos.Core\bin\Debug\netstandard2.0\Recibos.Core.deps.json
+C:\Users\David\Documents\GitHub\RecibosWebAPI\RecibosAPI\Recibos.Core\bin\Debug\netstandard2.0\Recibos.Core.dll
+C:\Users\David\Documents\GitHub\RecibosWebAPI\RecibosAPI\Recibos.Core\bin\Debug\netstandard2.0\Recibos.Core.pdb
+C:\Users\David\Documents\GitHub\RecibosWebAPI\RecibosAPI\Recibos.Core\obj\Debug\netstandard2.0\Recibos.Core.csprojAssemblyReference.cache

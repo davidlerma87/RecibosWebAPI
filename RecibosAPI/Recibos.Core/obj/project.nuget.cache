@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "v8EdwqG+UCXQf0dfQzcOpQjno52J/z5GivQ5B3uqMVR3MeqG/ZsZgAMzUsZ2T3u3Zxt9ONExJng76LSdpVMwSg==",
+  "dgSpecHash": "kvJ5y2BQHce3ZAmKCQDHJNKIVSknqsdXtza07wba6R052iXvqLXVFkAA0jDLmGJZt1H4FD7AwjmFX9XyioajLA==",
   "success": true,
-  "projectFilePath": "D:\\RecibosProject\\RecibosWebAPI\\RecibosAPI\\Recibos.Core\\Recibos.Core.csproj",
+  "projectFilePath": "C:\\Users\\David\\Documents\\GitHub\\RecibosWebAPI\\RecibosAPI\\Recibos.Core\\Recibos.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\David\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\David\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

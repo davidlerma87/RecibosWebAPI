@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VUHYKrySCpnx+8PJsUqKDZmVYXz9yPb0nUvQxnCczT0CQuNGfg2vTwVesmuJTdUdMWdLfUgrLBF/XnW/nNJ5Eg==",
+  "dgSpecHash": "OOMuj0+KycIhRclp2XTgbUSOiXcyGDrCWAuikgunq3ILk79O21Z9V2XWJ7AiozuvjhJJMUWpBQCsa+sRPHqDOA==",
   "success": true,
-  "projectFilePath": "D:\\RecibosProject\\RecibosWebAPI\\RecibosAPI\\Recibos.Infrastructure\\Recibos.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\David\\Documents\\GitHub\\RecibosWebAPI\\RecibosAPI\\Recibos.Infrastructure\\Recibos.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\David\\.nuget\\packages\\automapper\\10.1.0\\automapper.10.1.0.nupkg.sha512",
     "C:\\Users\\David\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",

@@ -14,6 +14,11 @@ using Recibos.Core.Services;
 using Recibos.Infrastructure.Data;
 using Recibos.Infrastructure.Filters;
 using Recibos.Infrastructure.Repositories;
+using Microsoft.OpenApi.Models;
+using System.Reflection;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 namespace RecibosAPI
 {
@@ -34,21 +39,50 @@ namespace RecibosAPI
 
             services.AddControllers(
                 options => options.Filters.Add<GlobalExceptionFilter>()
-            ).AddNewtonsoftJson(
-                options => options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
-            ).ConfigureApiBehaviorOptions(
-                options => { options.SuppressModelStateInvalidFilter = true;
+            ).AddNewtonsoftJson(options =>
+            {
+                options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
+                options.SerializerSettings.NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore;
+            })
+            .ConfigureApiBehaviorOptions(options =>
+            {
+                //options.SuppressModelStateInvalidFilter = true;
             });
 
+            //services.AddOptions(Configuration);
             services.AddDbContext<ReceiptsDBContext>(options =>
                         options.UseSqlServer(Configuration.GetConnectionString("ReceiptsDB"))
                      );
+            services.AddSwaggerGen(doc => {
+                doc.SwaggerDoc("v1", new OpenApiInfo { Title = "Receipts API Documentation", Version = "v1" });
+            });
+
+            //$"{Assembly.GetExecutingAssembly().GetName().Name}.xml");
+            services.AddAuthentication(options =>
+            {
+                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            }).AddJwtBearer(options =>
+            {
+                options.TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidateIssuer = true,
+                    ValidateAudience = true,
+                    ValidateLifetime = true,
+                    ValidateIssuerSigningKey = true,
+                    ValidIssuer = Configuration["Authentication:Issuer"],
+                    ValidAudience = Configuration["Authentication:Audience"],
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["Authentication:SecretKey"]))
+                };
+
+            });
 
             //services.AddTransient<IReceiptRepository, ReceiptRepository>();
             services.AddTransient<IReceiptService, ReceiptService>();            
             services.AddTransient<ICurrencyService, CurrencyService>();
             services.AddTransient<ISupplierService, SupplierService>();
             services.AddTransient<IUserRepository, UserRepository>();
+            services.AddTransient<ISecurityRepository, SecurityRepository>();
             services.AddScoped(typeof(IRepository<>), typeof(BaseRepository<>));
             services.AddTransient<IUnitOfWork, UnitOfWork>();
 
@@ -80,6 +114,13 @@ namespace RecibosAPI
             }            
 
             app.UseHttpsRedirection();
+
+            app.UseSwagger();
+            app.UseSwaggerUI(options =>
+            {
+                options.SwaggerEndpoint("/swagger/v1/swagger.json", "Receipts Doc API V1");
+                options.RoutePrefix = string.Empty;
+            });
 
             app.UseRouting();
 

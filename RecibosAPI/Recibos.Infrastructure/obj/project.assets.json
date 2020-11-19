@@ -8913,11 +8913,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\RecibosProject\\RecibosWebAPI\\RecibosAPI\\Recibos.Infrastructure\\Recibos.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\David\\Documents\\GitHub\\RecibosWebAPI\\RecibosAPI\\Recibos.Infrastructure\\Recibos.Infrastructure.csproj",
       "projectName": "Recibos.Infrastructure",
-      "projectPath": "D:\\RecibosProject\\RecibosWebAPI\\RecibosAPI\\Recibos.Infrastructure\\Recibos.Infrastructure.csproj",
+      "projectPath": "C:\\Users\\David\\Documents\\GitHub\\RecibosWebAPI\\RecibosAPI\\Recibos.Infrastructure\\Recibos.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
-      "outputPath": "D:\\RecibosProject\\RecibosWebAPI\\RecibosAPI\\Recibos.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\David\\Documents\\GitHub\\RecibosWebAPI\\RecibosAPI\\Recibos.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8933,8 +8933,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "D:\\RecibosProject\\RecibosWebAPI\\RecibosAPI\\Recibos.Core\\Recibos.Core.csproj": {
-              "projectPath": "D:\\RecibosProject\\RecibosWebAPI\\RecibosAPI\\Recibos.Core\\Recibos.Core.csproj"
+            "C:\\Users\\David\\Documents\\GitHub\\RecibosWebAPI\\RecibosAPI\\Recibos.Core\\Recibos.Core.csproj": {
+              "projectPath": "C:\\Users\\David\\Documents\\GitHub\\RecibosWebAPI\\RecibosAPI\\Recibos.Core\\Recibos.Core.csproj"
             }
           }
         }
